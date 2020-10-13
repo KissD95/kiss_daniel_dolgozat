@@ -29,7 +29,8 @@ public class Main {
                     //sebzes hozzáadása a dobáshoz ,újradobás?,válasz bevitel
                     sebzes += dobas;
                     System.out.println();
-                    System.out.println("Akarsz még dobni?");
+                    System.out.println("Akarsz még dobni?(igen=0,nem=1");
+                    // válasz igen=0 nem=1
                     valasz = sc.nextByte();
                 }
 
